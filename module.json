@@ -1,0 +1,24 @@
+{
+  "id": "sr-workshop",
+  "title": "SR5 Workshop",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "esmodules": ["src/main.js"],
+  "relationships": {
+    "systems": [
+      {
+        "id": "shadowrun5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "documentTypes": {
+    "Actor": {
+      "workshop": {}
+    }
+  }
+}
