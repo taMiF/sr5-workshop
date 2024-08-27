@@ -6,7 +6,7 @@
     "minimum": "12",
     "verified": "12"
   },
-  "esmodules": ["src/main.js"],
+  "esmodules": ["src/main.mjs"],
   "relationships": {
     "systems": [
       {
