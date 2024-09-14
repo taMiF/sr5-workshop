@@ -20,5 +20,15 @@
     "Actor": {
       "workshop": {}
     }
-  }
+  },
+  
+   "packs": [
+    {
+      "name": "sr5-workshop-actions",
+      "label": "SR5 Workshop Actions",
+      "path": "packs/actions.db",
+      "entity": "Item",
+      "system": "shadowrun5e"
+    }
+   ] 
 }
