@@ -1,4 +1,3 @@
-console.error("SR5 Workshop | Loading CustomTest");
 /**
  * Extend the default test implementation for a custom test that
  * - alters the default dialog
@@ -6,7 +5,6 @@ console.error("SR5 Workshop | Loading CustomTest");
  */
 export class CustomTest extends game.shadowrun5e.tests.SuccessTest {
     constructor(actor, options) {
-        console.error("SR5 Workshop | CustomTest constructor");
         super(actor, options);
     }
 
@@ -15,5 +13,12 @@ export class CustomTest extends game.shadowrun5e.tests.SuccessTest {
      */
     get _dialogTemplate() {
         return "modules/sr5-workshop/templates/tests/custom-test-dialog.html";
+    }
+
+    /**
+     * Provide custom label
+     */
+    static get label() {
+        return "SR5WS.Tests.CustomTest";
     }
 }
