@@ -1,1 +1,7 @@
 .vscode/**/*
+
+node_modules
+
+# Ignore all packs databases but include the source files to build them.
+packs/*
+!packs/_source/

@@ -1,24 +1,38 @@
 {
-  "id": "sr-workshop",
-  "title": "SR5 Workshop",
-  "version": "1.0.0",
-  "compatibility": {
-    "minimum": "12",
-    "verified": "12"
-  },
-  "esmodules": ["src/main.mjs"],
-  "relationships": {
-    "systems": [
-      {
-        "id": "shadowrun5e",
-        "type": "system",
-        "compatibility": {}
-      }
-    ]
-  },
-  "documentTypes": {
-    "Actor": {
-      "workshop": {}
-    }
-  }
+    "id": "sr5-workshop",
+    "title": "SR5 Workshop",
+    "version": "1.0.0",
+    "compatibility": {
+        "minimum": "12",
+        "verified": "12"
+    },
+    "esmodules": ["src/main.mjs"],
+    "relationships": {
+        "systems": [
+            {
+                "id": "shadowrun5e",
+                "type": "system",
+                "compatibility": {}
+            }
+        ]
+    },
+    "documentTypes": {
+        "Actor": {
+            "workshop": {}
+        }
+    },
+    "packs": [
+        {
+            "name": "sr5-workshop-actions",
+            "label": "SR5 Workshop Actions",
+            "path": "packs/actions.db",
+            "type": "Item",
+            "system": "shadowrun5e"
+        }
+    ],
+    "languages": [{
+        "lang": "en",
+        "name": "English",
+        "path": "locale/en.json"
+    }]
 }

@@ -1,0 +1,24 @@
+{
+    "name": "sr5-workshop",
+    "version": "1.0.0",
+    "description": "A workshop for modules using the Shadowrun5e system extending different system aspects.",
+    "main": "./src/main.mjs",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build:db": "node ./foundry-packs.mjs package pack",
+        "unpack:db": "node ./foundry-packs.mjs package unpack"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/taMiF/sr5-workshop.git"
+    },
+    "author": "Jan Schoska",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/taMiF/sr5-workshop/issues"
+    },
+    "homepage": "https://github.com/taMiF/sr5-workshop#readme",
+    "devDependencies": {
+        "@foundryvtt/foundryvtt-cli": "^1.0.3"
+    }
+}
